@@ -1,5 +1,10 @@
 import crypto from "crypto";
-import { kv } from "@vercel/kv";
+import { Redis } from "@upstash/redis";
+
+const redis = new Redis({
+  url: process.env.KV_REST_API_URL,
+  token: process.env.KV_REST_API_TOKEN,
+});
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
@@ -11,16 +16,15 @@ export default async function handler(req, res) {
 
     const id = crypto.randomBytes(3).toString("hex");
     const tripData = { itinerary, selectedSpots, meta, createdAt: new Date().toISOString() };
-    
+
     try {
-      await kv.set(id, tripData);
+      await redis.set(id, JSON.stringify(tripData));
       return res.json({ id });
     } catch (err) {
-      console.error("KV Set Error:", err);
-      return res.status(500).json({ error: "internal_error" });
+      console.error("Redis Set Error:", err);
+      return res.status(500).json({ error: "internal_error", message: err.message });
     }
   }
 
   return res.status(405).json({ error: "Method not allowed" });
 }
-

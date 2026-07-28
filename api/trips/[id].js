@@ -1,4 +1,9 @@
-import { kv } from "@vercel/kv";
+import { Redis } from "@upstash/redis";
+
+const redis = new Redis({
+  url: process.env.KV_REST_API_URL,
+  token: process.env.KV_REST_API_TOKEN,
+});
 
 export default async function handler(req, res) {
   if (req.method !== "GET") {
@@ -12,16 +17,16 @@ export default async function handler(req, res) {
   }
 
   try {
-    const trip = await kv.get(id);
-    
-    if (!trip) {
+    const raw = await redis.get(id);
+
+    if (!raw) {
       return res.status(404).json({ error: "not_found", message: "Trip not found." });
     }
 
+    const trip = typeof raw === "string" ? JSON.parse(raw) : raw;
     return res.json(trip);
   } catch (err) {
-    console.error("KV Get Error:", err);
-    return res.status(500).json({ error: "internal_error" });
+    console.error("Redis Get Error:", err);
+    return res.status(500).json({ error: "internal_error", message: err.message });
   }
 }
-
