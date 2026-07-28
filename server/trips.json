@@ -1333,5 +1333,105 @@
       "persons": 3
     },
     "createdAt": "2026-07-28T19:59:20.882Z"
+  },
+  "e24736": {
+    "itinerary": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & Cultural Delights",
+          "stopIds": [
+            "bhatti-village",
+            "sakana"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Beachside Relaxation",
+          "stopIds": [
+            "cafe-mambo"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Relaxing Beach Life",
+          "stopIds": [
+            "the-fish-factory"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Sublime Departure",
+          "stopIds": [
+            "sublime"
+          ]
+        }
+      ]
+    },
+    "selectedSpots": [
+      {
+        "type": "restaurant",
+        "id": "sublime",
+        "name": "Sublime",
+        "cuisine": "continental",
+        "priceHint": "₹",
+        "whyRecommended": "Serves a range of international dishes with a focus on local ingredients and creative presentation.",
+        "nearStopId": "calangute-beach",
+        "estimatedCost": 200
+      },
+      {
+        "type": "restaurant",
+        "id": "bhatti-village",
+        "name": "Bhatti Village",
+        "cuisine": "north-indian",
+        "priceHint": "₹",
+        "whyRecommended": "Offers authentic North Indian cuisine with a focus on traditional recipes and local ingredients.",
+        "nearStopId": "baga-beach",
+        "estimatedCost": 150
+      },
+      {
+        "type": "restaurant",
+        "id": "sakana",
+        "name": "Sakana",
+        "cuisine": "japanese",
+        "priceHint": "₹₹",
+        "whyRecommended": "Serves delicious Japanese cuisine with a focus on fresh ingredients and traditional techniques.",
+        "nearStopId": "miramar-beach",
+        "estimatedCost": 350
+      },
+      {
+        "type": "restaurant",
+        "id": "cafe-mambo",
+        "name": "Cafe Mambo",
+        "cuisine": "continental",
+        "priceHint": "₹",
+        "whyRecommended": "A popular spot for breakfast and brunch, with a focus on local ingredients and creative dishes.",
+        "nearStopId": "baga-beach",
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "the-fish-factory",
+        "name": "The Fish Factory",
+        "cuisine": "seafood",
+        "priceHint": "₹",
+        "whyRecommended": "Serves fresh seafood with a focus on local ingredients and traditional recipes.",
+        "nearStopId": "palolem-beach",
+        "estimatedCost": 250
+      }
+    ],
+    "meta": {
+      "origin": "Hyderabad",
+      "destination": "Goa",
+      "days": 4,
+      "vibeTags": [
+        "beachlife",
+        "relaxing",
+        "cultural"
+      ],
+      "budget": 1000,
+      "persons": 1
+    },
+    "createdAt": "2026-07-28T20:47:43.923Z"
   }
 }
