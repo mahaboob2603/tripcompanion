@@ -24,8 +24,8 @@ export function useAsyncRequest() {
     } catch (err) {
       if (id !== requestIdRef.current) return; // stale error, ignore it too
       
-      const kind = err.name === "AbortError" ? "timeout" : err.status === 502 ? "upstream" : "network";
-      setState({ status: "error", data: null, error: { kind, message: err.message } });
+      const kind = err.name === "AbortError" ? "timeout" : err.status === 429 ? "ratelimit" : err.status === 502 ? "upstream" : "network";
+      setState({ status: "error", data: null, error: { kind, status: err.status, message: err.message } });
     }
   }, []);
 

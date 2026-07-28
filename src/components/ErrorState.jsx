@@ -9,6 +9,10 @@ export function ErrorState({ error, onRetry, onReset }) {
     title = "This is taking too long";
     message = "Our AI is taking longer than expected to curate your trip. Please try again.";
     Icon = Clock;
+  } else if (error.kind === 'ratelimit') {
+    title = "Too Many Requests";
+    message = "The AI service is currently rate limited. Please wait a moment and try again.";
+    Icon = AlertTriangle;
   } else if (error.kind === 'upstream') {
     title = "AI Service Unavailable";
     message = "The trip curation service is currently overloaded. Give it a moment and try again.";
