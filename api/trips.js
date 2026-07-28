@@ -1,9 +1,5 @@
 import crypto from "crypto";
-
-// In-memory store (Vercel serverless functions are ephemeral, 
-// so this only persists within a single invocation's lifetime.
-// For production, use a real database.)
-const memoryStore = {};
+import { kv } from "@vercel/kv";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
@@ -14,10 +10,17 @@ export default async function handler(req, res) {
     }
 
     const id = crypto.randomBytes(3).toString("hex");
-    memoryStore[id] = { itinerary, selectedSpots, meta, createdAt: new Date().toISOString() };
-
-    return res.json({ id });
+    const tripData = { itinerary, selectedSpots, meta, createdAt: new Date().toISOString() };
+    
+    try {
+      await kv.set(id, tripData);
+      return res.json({ id });
+    } catch (err) {
+      console.error("KV Set Error:", err);
+      return res.status(500).json({ error: "internal_error" });
+    }
   }
 
   return res.status(405).json({ error: "Method not allowed" });
 }
+
