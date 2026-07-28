@@ -18,6 +18,10 @@ app.use("/api", gapfillRouter);
 app.use("/api", refineRouter);
 app.use("/api", tripsRouter);
 
-app.listen(port, "127.0.0.1", () => {
-  console.log(`Backend proxy running on http://127.0.0.1:${port}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(port, "127.0.0.1", () => {
+    console.log(`Backend proxy running on http://127.0.0.1:${port}`);
+  });
+}
+
+export default app;
