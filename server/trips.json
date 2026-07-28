@@ -1,0 +1,1337 @@
+{
+  "8f269c": {
+    "itinerary": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Pilgrimage in Tirupati",
+          "stopIds": [
+            "tirupati-temple"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Arrival in Bengaluru",
+          "stopIds": [
+            "mtr-restaurant",
+            "kerala-restaurant"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Royal Bengaluru",
+          "stopIds": [
+            "bangalore-palace",
+            "cubbon-park"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Nature & Nightlife in Bengaluru",
+          "stopIds": [
+            "lalbagh-botanical-garden",
+            "ulsoor-lake",
+            "toit-brewery",
+            "corner-house-ice-cream"
+          ]
+        }
+      ]
+    },
+    "selectedSpots": [
+      {
+        "type": "spot",
+        "id": "tirupati-temple",
+        "name": "Sri Venkateswara Temple",
+        "category": "culture",
+        "whyVisit": "One of the most famous and richest temples in India, dedicated to Lord Venkateswara.",
+        "suggestedDurationMins": 120,
+        "mustSee": true,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "lalbagh-botanical-garden",
+        "name": "Lalbagh Botanical Garden",
+        "category": "nature",
+        "whyVisit": "A serene escape with beautiful gardens, a lake, and a stunning glasshouse.",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 20
+      },
+      {
+        "type": "spot",
+        "id": "bangalore-palace",
+        "name": "Bangalore Palace",
+        "category": "landmark",
+        "whyVisit": "A historic palace with a mix of Tudor and Scottish Gothic architectural styles.",
+        "suggestedDurationMins": 60,
+        "mustSee": false,
+        "estimatedCost": 230
+      },
+      {
+        "type": "spot",
+        "id": "cubbon-park",
+        "name": "Cubbon Park",
+        "category": "nature",
+        "whyVisit": "A large public park with lush greenery and several monuments and statues.",
+        "suggestedDurationMins": 60,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "ulsoor-lake",
+        "name": "Ulsoor Lake",
+        "category": "nature",
+        "whyVisit": "A scenic lake with boating facilities and a walking path, perfect for relaxation.",
+        "suggestedDurationMins": 60,
+        "mustSee": false,
+        "estimatedCost": 20
+      },
+      {
+        "type": "restaurant",
+        "id": "mtr-restaurant",
+        "name": "MTR Restaurant",
+        "cuisine": "south indian",
+        "priceHint": "₹",
+        "whyRecommended": "A popular restaurant serving traditional South Indian cuisine, known for its masala dosa and vada.",
+        "nearStopId": "mg-road",
+        "estimatedCost": 150
+      },
+      {
+        "type": "restaurant",
+        "id": "toit-brewery",
+        "name": "Toit Brewery",
+        "cuisine": "continental",
+        "priceHint": "₹₹",
+        "whyRecommended": "A microbrewery serving a variety of craft beers and delicious food.",
+        "nearStopId": "mg-road",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "corner-house-ice-cream",
+        "name": "Corner House Ice Cream",
+        "cuisine": "desserts",
+        "priceHint": "₹",
+        "whyRecommended": "A popular ice cream parlor with unique flavors and a cozy atmosphere.",
+        "nearStopId": "lalbagh-botanical-garden",
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "kerala-restaurant",
+        "name": "Kerala Restaurant",
+        "cuisine": "south indian",
+        "priceHint": "₹",
+        "whyRecommended": "A restaurant serving authentic Kerala cuisine, known for its flavorful dishes and reasonable prices.",
+        "nearStopId": "cubbon-park",
+        "estimatedCost": 200
+      }
+    ],
+    "meta": {
+      "origin": "Tirupati",
+      "destination": "Bengaluru",
+      "days": 4,
+      "vibeTags": [
+        "pilgrimage",
+        "citylife",
+        "southindian"
+      ],
+      "budget": 8000
+    },
+    "createdAt": "2026-07-28T19:41:47.508Z"
+  },
+  "08b1fe": {
+    "itinerary": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival and Local Exploration",
+          "stopIds": [
+            "manali-mall-road",
+            "hadimba-devi-temple",
+            "old-manali",
+            "il-forno",
+            "cafe-1920",
+            "dylan-s-toasted-and-grilled"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Nature and Adventure",
+          "stopIds": [
+            "solang-valley",
+            "rohtang-pass",
+            "beas-river",
+            "jogini-waterfall",
+            "gauri-shankar-temple",
+            "lazy-dog"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Relaxation and Departure Prep",
+          "stopIds": [
+            "hampta-pass",
+            "deori-tal",
+            "the-johnson-hotel",
+            "people-lounge",
+            "the-hungry-goose",
+            "shere-punjab",
+            "mountain-face"
+          ]
+        }
+      ]
+    },
+    "selectedSpots": [
+      {
+        "type": "spot",
+        "id": "hadimba-devi-temple",
+        "name": "Hidimba Devi Temple",
+        "category": "culture",
+        "whyVisit": "A unique wooden temple dedicated to the goddess Hidimba, set amidst a beautiful cedar forest.",
+        "suggestedDurationMins": 60,
+        "mustSee": true,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "manali-mall-road",
+        "name": "Mall Road",
+        "category": "shopping",
+        "whyVisit": "The heart of Manali, lined with shops, cafes, and restaurants, offering stunning views of the Himalayas.",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 500
+      },
+      {
+        "type": "spot",
+        "id": "solang-valley",
+        "name": "Solang Valley",
+        "category": "nature",
+        "whyVisit": "A picturesque valley with breathtaking views of the Himalayas, perfect for adventure activities like paragliding and skiing.",
+        "suggestedDurationMins": 180,
+        "mustSee": true,
+        "estimatedCost": 1000
+      },
+      {
+        "type": "spot",
+        "id": "old-manali",
+        "name": "Old Manali",
+        "category": "culture",
+        "whyVisit": "A charming, laid-back village with a rich history, known for its beautiful temples, cafes, and scenic views.",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "jogini-waterfall",
+        "name": "Jogini Waterfall",
+        "category": "nature",
+        "whyVisit": "A beautiful waterfall surrounded by lush green forests, perfect for a peaceful trek.",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "rohtang-pass",
+        "name": "Rohtang Pass",
+        "category": "nature",
+        "whyVisit": "A high-altitude mountain pass with breathtaking views of the Himalayas, perfect for adventure activities like skiing and snowboarding.",
+        "suggestedDurationMins": 180,
+        "mustSee": true,
+        "estimatedCost": 1500
+      },
+      {
+        "type": "spot",
+        "id": "beas-river",
+        "name": "Beas River",
+        "category": "nature",
+        "whyVisit": "A majestic river with crystal-clear waters, perfect for rafting and fishing.",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 1000
+      },
+      {
+        "type": "spot",
+        "id": "hampta-pass",
+        "name": "Hampta Pass",
+        "category": "nature",
+        "whyVisit": "A high-altitude mountain pass with breathtaking views of the Himalayas, perfect for trekking and camping.",
+        "suggestedDurationMins": 240,
+        "mustSee": false,
+        "estimatedCost": 2000
+      },
+      {
+        "type": "spot",
+        "id": "deori-tal",
+        "name": "Deori Tal",
+        "category": "nature",
+        "whyVisit": "A beautiful lake with crystal-clear waters, perfect for trekking and camping.",
+        "suggestedDurationMins": 240,
+        "mustSee": false,
+        "estimatedCost": 2000
+      },
+      {
+        "type": "spot",
+        "id": "gauri-shankar-temple",
+        "name": "Gauri Shankar Temple",
+        "category": "culture",
+        "whyVisit": "A ancient temple dedicated to the god Shiva, offering stunning views of the surrounding mountains.",
+        "suggestedDurationMins": 60,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "restaurant",
+        "id": "il-forno",
+        "name": "Il Forno",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A cozy Italian restaurant serving delicious pizzas and pastas.",
+        "nearStopId": "hadimba-devi-temple",
+        "estimatedCost": 800
+      },
+      {
+        "type": "restaurant",
+        "id": "mountain-face",
+        "name": "Mountain Face",
+        "cuisine": "indian",
+        "priceHint": "₹",
+        "whyRecommended": "A local restaurant serving delicious Indian cuisine with stunning views of the Himalayas.",
+        "nearStopId": "manali-mall-road",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "the-johnson-hotel",
+        "name": "The Johnson Hotel",
+        "cuisine": "continental",
+        "priceHint": "₹₹",
+        "whyRecommended": "A hotel restaurant serving delicious continental cuisine with stunning views of the Himalayas.",
+        "nearStopId": "old-manali",
+        "estimatedCost": 1000
+      },
+      {
+        "type": "restaurant",
+        "id": "cafe-1920",
+        "name": "Cafe 1920",
+        "cuisine": "cafe",
+        "priceHint": "₹",
+        "whyRecommended": "A cozy cafe serving delicious coffee and snacks.",
+        "nearStopId": "hadimba-devi-temple",
+        "estimatedCost": 300
+      },
+      {
+        "type": "restaurant",
+        "id": "dylan-s-toasted-and-grilled",
+        "name": "Dylan's Toasted and Grilled",
+        "cuisine": "cafe",
+        "priceHint": "₹",
+        "whyRecommended": "A cozy cafe serving delicious toast and grilled items.",
+        "nearStopId": "old-manali",
+        "estimatedCost": 400
+      },
+      {
+        "type": "restaurant",
+        "id": "the-hungry-goose",
+        "name": "The Hungry Goose",
+        "cuisine": "indian",
+        "priceHint": "₹",
+        "whyRecommended": "A local restaurant serving delicious Indian cuisine.",
+        "nearStopId": "manali-mall-road",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "shere-punjab",
+        "name": "Shere Punjab",
+        "cuisine": "indian",
+        "priceHint": "₹",
+        "whyRecommended": "A local restaurant serving delicious Indian cuisine.",
+        "nearStopId": "manali-mall-road",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "lazy-dog",
+        "name": "Lazy Dog",
+        "cuisine": "continental",
+        "priceHint": "₹₹",
+        "whyRecommended": "A restaurant serving delicious continental cuisine with stunning views of the Himalayas.",
+        "nearStopId": "old-manali",
+        "estimatedCost": 1000
+      },
+      {
+        "type": "restaurant",
+        "id": "people-lounge",
+        "name": "People Lounge",
+        "cuisine": "indian",
+        "priceHint": "₹",
+        "whyRecommended": "A local restaurant serving delicious Indian cuisine.",
+        "nearStopId": "manali-mall-road",
+        "estimatedCost": 500
+      }
+    ],
+    "meta": {
+      "origin": "delhi",
+      "destination": "manali",
+      "days": 3,
+      "vibeTags": [
+        "adventure",
+        "nature",
+        "relaxation"
+      ],
+      "budget": 30000
+    },
+    "createdAt": "2026-07-28T19:45:13.752Z"
+  },
+  "c57ce6": {
+    "itinerary": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Delhi Arrival & India Gate",
+          "stopIds": [
+            "india-gate",
+            "connaught-place"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks",
+          "stopIds": [
+            "qutub-minar",
+            "humayun-tomb"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Mughal Heritage",
+          "stopIds": [
+            "red-fort"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Spiritual Delhi",
+          "stopIds": [
+            "akshardham-temple",
+            "lotus-temple"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Garden Stroll & Shopping",
+          "stopIds": [
+            "lodi-gardens",
+            "janpath-market"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Street Food & Local Markets",
+          "stopIds": [
+            "dilli-haat",
+            "paranthe-wali-gali"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Fine Dining Experience",
+          "stopIds": [
+            "karim-s",
+            "bukhara",
+            "varq"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Cafes & Departure",
+          "stopIds": [
+            "imperfecto",
+            "big-chill-cafe"
+          ]
+        }
+      ]
+    },
+    "selectedSpots": [
+      {
+        "type": "spot",
+        "id": "red-fort",
+        "name": "Red Fort",
+        "category": "landmark",
+        "whyVisit": "A UNESCO World Heritage Site and a symbol of India's rich history",
+        "suggestedDurationMins": 120,
+        "mustSee": true,
+        "estimatedCost": 50
+      },
+      {
+        "type": "spot",
+        "id": "qutub-minar",
+        "name": "Qutub Minar",
+        "category": "landmark",
+        "whyVisit": "The tallest minaret in India and a masterpiece of Mughal architecture",
+        "suggestedDurationMins": 90,
+        "mustSee": true,
+        "estimatedCost": 30
+      },
+      {
+        "type": "spot",
+        "id": "india-gate",
+        "name": "India Gate",
+        "category": "landmark",
+        "whyVisit": "A war memorial and a symbol of India's independence",
+        "suggestedDurationMins": 60,
+        "mustSee": true,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "humayun-tomb",
+        "name": "Humayun's Tomb",
+        "category": "landmark",
+        "whyVisit": "A beautiful example of Mughal architecture and a precursor to the Taj Mahal",
+        "suggestedDurationMins": 90,
+        "mustSee": true,
+        "estimatedCost": 30
+      },
+      {
+        "type": "spot",
+        "id": "lotus-temple",
+        "name": "Lotus Temple",
+        "category": "landmark",
+        "whyVisit": "A unique and beautiful temple that resembles a lotus flower",
+        "suggestedDurationMins": 60,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "connaught-place",
+        "name": "Connaught Place",
+        "category": "shopping",
+        "whyVisit": "A popular shopping and dining destination in the heart of Delhi",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 500
+      },
+      {
+        "type": "spot",
+        "id": "akshardham-temple",
+        "name": "Akshardham Temple",
+        "category": "landmark",
+        "whyVisit": "A beautiful and intricately carved temple complex",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 170
+      },
+      {
+        "type": "spot",
+        "id": "lodi-gardens",
+        "name": "Lodi Gardens",
+        "category": "nature",
+        "whyVisit": "A beautiful park with a collection of historical monuments",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "dilli-haat",
+        "name": "Dilli Haat",
+        "category": "shopping",
+        "whyVisit": "A market that showcases India's rich cultural heritage and handicrafts",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 100
+      },
+      {
+        "type": "spot",
+        "id": "janpath-market",
+        "name": "Janpath Market",
+        "category": "shopping",
+        "whyVisit": "A popular market with a variety of shops, restaurants, and cafes",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "karim-s",
+        "name": "Karim's",
+        "cuisine": "mughlai",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Mughlai cuisine",
+        "nearStopId": "jama-masjid",
+        "estimatedCost": 200
+      },
+      {
+        "type": "restaurant",
+        "id": "paranthe-wali-gali",
+        "name": "Paranthe Wali Gali",
+        "cuisine": "north-indian",
+        "priceHint": "₹",
+        "whyRecommended": "A popular street food destination that serves delicious parathas",
+        "nearStopId": "chandni-chowk",
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "bukhara",
+        "name": "Bukhara",
+        "cuisine": "north-indian",
+        "priceHint": "₹₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious North Indian cuisine",
+        "nearStopId": "hauz-khas",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "varq",
+        "name": "Varq",
+        "cuisine": "modern-indian",
+        "priceHint": "₹₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious modern Indian cuisine",
+        "nearStopId": "taj-mahal-hotel",
+        "estimatedCost": 400
+      },
+      {
+        "type": "restaurant",
+        "id": "imperfecto",
+        "name": "Imperfecto",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Italian cuisine",
+        "nearStopId": "hauz-khas",
+        "estimatedCost": 300
+      },
+      {
+        "type": "restaurant",
+        "id": "big-chill-cafe",
+        "name": "Big Chill Cafe",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Italian cuisine",
+        "nearStopId": "khan-market",
+        "estimatedCost": 250
+      }
+    ],
+    "meta": {
+      "origin": "chennai",
+      "destination": "delhi",
+      "days": 8,
+      "vibeTags": [
+        "cultural",
+        "historical",
+        "foodie"
+      ],
+      "budget": 30000,
+      "persons": 3
+    },
+    "createdAt": "2026-07-28T19:53:37.119Z"
+  },
+  "8e4606": {
+    "itinerary": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Delhi Arrival & India Gate",
+          "stopIds": [
+            "india-gate",
+            "connaught-place"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks",
+          "stopIds": [
+            "qutub-minar",
+            "humayun-tomb"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Mughal Heritage",
+          "stopIds": [
+            "red-fort"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Spiritual Delhi",
+          "stopIds": [
+            "akshardham-temple",
+            "lotus-temple"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Garden Stroll & Shopping",
+          "stopIds": [
+            "lodi-gardens",
+            "janpath-market"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Street Food & Local Markets",
+          "stopIds": [
+            "dilli-haat",
+            "paranthe-wali-gali"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Fine Dining Experience",
+          "stopIds": [
+            "karim-s",
+            "bukhara",
+            "varq"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Cafes & Departure",
+          "stopIds": [
+            "imperfecto",
+            "big-chill-cafe"
+          ]
+        }
+      ]
+    },
+    "selectedSpots": [
+      {
+        "type": "spot",
+        "id": "red-fort",
+        "name": "Red Fort",
+        "category": "landmark",
+        "whyVisit": "A UNESCO World Heritage Site and a symbol of India's rich history",
+        "suggestedDurationMins": 120,
+        "mustSee": true,
+        "estimatedCost": 50
+      },
+      {
+        "type": "spot",
+        "id": "qutub-minar",
+        "name": "Qutub Minar",
+        "category": "landmark",
+        "whyVisit": "The tallest minaret in India and a masterpiece of Mughal architecture",
+        "suggestedDurationMins": 90,
+        "mustSee": true,
+        "estimatedCost": 30
+      },
+      {
+        "type": "spot",
+        "id": "india-gate",
+        "name": "India Gate",
+        "category": "landmark",
+        "whyVisit": "A war memorial and a symbol of India's independence",
+        "suggestedDurationMins": 60,
+        "mustSee": true,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "humayun-tomb",
+        "name": "Humayun's Tomb",
+        "category": "landmark",
+        "whyVisit": "A beautiful example of Mughal architecture and a precursor to the Taj Mahal",
+        "suggestedDurationMins": 90,
+        "mustSee": true,
+        "estimatedCost": 30
+      },
+      {
+        "type": "spot",
+        "id": "lotus-temple",
+        "name": "Lotus Temple",
+        "category": "landmark",
+        "whyVisit": "A unique and beautiful temple that resembles a lotus flower",
+        "suggestedDurationMins": 60,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "connaught-place",
+        "name": "Connaught Place",
+        "category": "shopping",
+        "whyVisit": "A popular shopping and dining destination in the heart of Delhi",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 500
+      },
+      {
+        "type": "spot",
+        "id": "akshardham-temple",
+        "name": "Akshardham Temple",
+        "category": "landmark",
+        "whyVisit": "A beautiful and intricately carved temple complex",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 170
+      },
+      {
+        "type": "spot",
+        "id": "lodi-gardens",
+        "name": "Lodi Gardens",
+        "category": "nature",
+        "whyVisit": "A beautiful park with a collection of historical monuments",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "dilli-haat",
+        "name": "Dilli Haat",
+        "category": "shopping",
+        "whyVisit": "A market that showcases India's rich cultural heritage and handicrafts",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 100
+      },
+      {
+        "type": "spot",
+        "id": "janpath-market",
+        "name": "Janpath Market",
+        "category": "shopping",
+        "whyVisit": "A popular market with a variety of shops, restaurants, and cafes",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "karim-s",
+        "name": "Karim's",
+        "cuisine": "mughlai",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Mughlai cuisine",
+        "nearStopId": "jama-masjid",
+        "estimatedCost": 200
+      },
+      {
+        "type": "restaurant",
+        "id": "paranthe-wali-gali",
+        "name": "Paranthe Wali Gali",
+        "cuisine": "north-indian",
+        "priceHint": "₹",
+        "whyRecommended": "A popular street food destination that serves delicious parathas",
+        "nearStopId": "chandni-chowk",
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "bukhara",
+        "name": "Bukhara",
+        "cuisine": "north-indian",
+        "priceHint": "₹₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious North Indian cuisine",
+        "nearStopId": "hauz-khas",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "varq",
+        "name": "Varq",
+        "cuisine": "modern-indian",
+        "priceHint": "₹₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious modern Indian cuisine",
+        "nearStopId": "taj-mahal-hotel",
+        "estimatedCost": 400
+      },
+      {
+        "type": "restaurant",
+        "id": "imperfecto",
+        "name": "Imperfecto",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Italian cuisine",
+        "nearStopId": "hauz-khas",
+        "estimatedCost": 300
+      },
+      {
+        "type": "restaurant",
+        "id": "big-chill-cafe",
+        "name": "Big Chill Cafe",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Italian cuisine",
+        "nearStopId": "khan-market",
+        "estimatedCost": 250
+      }
+    ],
+    "meta": {
+      "origin": "chennai",
+      "destination": "delhi",
+      "days": 8,
+      "vibeTags": [
+        "cultural",
+        "historical",
+        "foodie"
+      ],
+      "budget": 30000,
+      "persons": 3
+    },
+    "createdAt": "2026-07-28T19:53:40.010Z"
+  },
+  "33c611": {
+    "itinerary": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Delhi Arrival & India Gate",
+          "stopIds": [
+            "india-gate",
+            "connaught-place"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks",
+          "stopIds": [
+            "qutub-minar",
+            "humayun-tomb"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Mughal Heritage",
+          "stopIds": [
+            "red-fort"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Spiritual Delhi",
+          "stopIds": [
+            "akshardham-temple",
+            "lotus-temple"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Garden Stroll & Shopping",
+          "stopIds": [
+            "lodi-gardens",
+            "janpath-market"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Street Food & Local Markets",
+          "stopIds": [
+            "dilli-haat",
+            "paranthe-wali-gali"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Fine Dining Experience",
+          "stopIds": [
+            "karim-s",
+            "bukhara",
+            "varq"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Cafes & Departure",
+          "stopIds": [
+            "imperfecto",
+            "big-chill-cafe"
+          ]
+        }
+      ]
+    },
+    "selectedSpots": [
+      {
+        "type": "spot",
+        "id": "red-fort",
+        "name": "Red Fort",
+        "category": "landmark",
+        "whyVisit": "A UNESCO World Heritage Site and a symbol of India's rich history",
+        "suggestedDurationMins": 120,
+        "mustSee": true,
+        "estimatedCost": 50
+      },
+      {
+        "type": "spot",
+        "id": "qutub-minar",
+        "name": "Qutub Minar",
+        "category": "landmark",
+        "whyVisit": "The tallest minaret in India and a masterpiece of Mughal architecture",
+        "suggestedDurationMins": 90,
+        "mustSee": true,
+        "estimatedCost": 30
+      },
+      {
+        "type": "spot",
+        "id": "india-gate",
+        "name": "India Gate",
+        "category": "landmark",
+        "whyVisit": "A war memorial and a symbol of India's independence",
+        "suggestedDurationMins": 60,
+        "mustSee": true,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "humayun-tomb",
+        "name": "Humayun's Tomb",
+        "category": "landmark",
+        "whyVisit": "A beautiful example of Mughal architecture and a precursor to the Taj Mahal",
+        "suggestedDurationMins": 90,
+        "mustSee": true,
+        "estimatedCost": 30
+      },
+      {
+        "type": "spot",
+        "id": "lotus-temple",
+        "name": "Lotus Temple",
+        "category": "landmark",
+        "whyVisit": "A unique and beautiful temple that resembles a lotus flower",
+        "suggestedDurationMins": 60,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "connaught-place",
+        "name": "Connaught Place",
+        "category": "shopping",
+        "whyVisit": "A popular shopping and dining destination in the heart of Delhi",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 500
+      },
+      {
+        "type": "spot",
+        "id": "akshardham-temple",
+        "name": "Akshardham Temple",
+        "category": "landmark",
+        "whyVisit": "A beautiful and intricately carved temple complex",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 170
+      },
+      {
+        "type": "spot",
+        "id": "lodi-gardens",
+        "name": "Lodi Gardens",
+        "category": "nature",
+        "whyVisit": "A beautiful park with a collection of historical monuments",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "dilli-haat",
+        "name": "Dilli Haat",
+        "category": "shopping",
+        "whyVisit": "A market that showcases India's rich cultural heritage and handicrafts",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 100
+      },
+      {
+        "type": "spot",
+        "id": "janpath-market",
+        "name": "Janpath Market",
+        "category": "shopping",
+        "whyVisit": "A popular market with a variety of shops, restaurants, and cafes",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "karim-s",
+        "name": "Karim's",
+        "cuisine": "mughlai",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Mughlai cuisine",
+        "nearStopId": "jama-masjid",
+        "estimatedCost": 200
+      },
+      {
+        "type": "restaurant",
+        "id": "paranthe-wali-gali",
+        "name": "Paranthe Wali Gali",
+        "cuisine": "north-indian",
+        "priceHint": "₹",
+        "whyRecommended": "A popular street food destination that serves delicious parathas",
+        "nearStopId": "chandni-chowk",
+        "estimatedCost": 100
+      },
+      {
+        "type": "restaurant",
+        "id": "bukhara",
+        "name": "Bukhara",
+        "cuisine": "north-indian",
+        "priceHint": "₹₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious North Indian cuisine",
+        "nearStopId": "hauz-khas",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "varq",
+        "name": "Varq",
+        "cuisine": "modern-indian",
+        "priceHint": "₹₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious modern Indian cuisine",
+        "nearStopId": "taj-mahal-hotel",
+        "estimatedCost": 400
+      },
+      {
+        "type": "restaurant",
+        "id": "imperfecto",
+        "name": "Imperfecto",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Italian cuisine",
+        "nearStopId": "hauz-khas",
+        "estimatedCost": 300
+      },
+      {
+        "type": "restaurant",
+        "id": "big-chill-cafe",
+        "name": "Big Chill Cafe",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant that serves delicious Italian cuisine",
+        "nearStopId": "khan-market",
+        "estimatedCost": 250
+      }
+    ],
+    "meta": {
+      "origin": "chennai",
+      "destination": "delhi",
+      "days": 8,
+      "vibeTags": [
+        "cultural",
+        "historical",
+        "foodie"
+      ],
+      "budget": 30000,
+      "persons": 3
+    },
+    "createdAt": "2026-07-28T19:53:41.244Z"
+  },
+  "9c8011": {
+    "itinerary": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & North Goa",
+          "stopIds": [
+            "fort-aguada",
+            "anjuna-beach",
+            "tito-s",
+            "infantaria"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Baga Beach Delights",
+          "stopIds": [
+            "baga-beach",
+            "sinq-pride",
+            "thalassa",
+            "sublime"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Cultural Experiences & South Goa",
+          "stopIds": [
+            "basilica-of-bom-jesus",
+            "baba-restaurant",
+            "the-fish-factory",
+            "lila-cafe"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Relaxation & Nature",
+          "stopIds": [
+            "palolem-beach",
+            "dudhsagar-waterfalls",
+            "artjuna"
+          ]
+        }
+      ]
+    },
+    "selectedSpots": [
+      {
+        "type": "spot",
+        "id": "baga-beach",
+        "name": "Baga Beach",
+        "category": "nature",
+        "whyVisit": "One of the most popular and happening beaches in Goa with water sports and vibrant nightlife.",
+        "suggestedDurationMins": 180,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "fort-aguada",
+        "name": "Fort Aguada",
+        "category": "landmark",
+        "whyVisit": "A 17th-century Portuguese fort that offers stunning views of the Arabian Sea.",
+        "suggestedDurationMins": 90,
+        "mustSee": false,
+        "estimatedCost": 50
+      },
+      {
+        "type": "spot",
+        "id": "palolem-beach",
+        "name": "Palolem Beach",
+        "category": "nature",
+        "whyVisit": "A picturesque beach known for its natural beauty and tranquil atmosphere.",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "dudhsagar-waterfalls",
+        "name": "Dudhsagar Waterfalls",
+        "category": "nature",
+        "whyVisit": "One of the tallest waterfalls in India, surrounded by lush green forests.",
+        "suggestedDurationMins": 120,
+        "mustSee": true,
+        "estimatedCost": 100
+      },
+      {
+        "type": "spot",
+        "id": "basilica-of-bom-jesus",
+        "name": "Basilica of Bom Jesus",
+        "category": "culture",
+        "whyVisit": "A historic church that houses the mortal remains of St. Francis Xavier, a UNESCO World Heritage Site.",
+        "suggestedDurationMins": 60,
+        "mustSee": true,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "anjuna-beach",
+        "name": "Anjuna Beach",
+        "category": "nature",
+        "whyVisit": "A popular beach known for its full-moon parties and vibrant nightlife.",
+        "suggestedDurationMins": 120,
+        "mustSee": false,
+        "estimatedCost": 0
+      },
+      {
+        "type": "spot",
+        "id": "sinq-pride",
+        "name": "Sinq Pride",
+        "category": "nightlife",
+        "whyVisit": "A popular nightclub in Goa, known for its vibrant atmosphere and live music.",
+        "suggestedDurationMins": 180,
+        "mustSee": false,
+        "estimatedCost": 500
+      },
+      {
+        "type": "spot",
+        "id": "tito-s",
+        "name": "Tito's",
+        "category": "nightlife",
+        "whyVisit": "A popular nightclub in Goa, known for its vibrant atmosphere and live music.",
+        "suggestedDurationMins": 180,
+        "mustSee": false,
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "infantaria",
+        "name": "Infantaria",
+        "cuisine": "goan",
+        "priceHint": "₹",
+        "whyRecommended": "Known for its traditional Goan cuisine and seafood dishes.",
+        "nearStopId": "baga-beach",
+        "estimatedCost": 200
+      },
+      {
+        "type": "restaurant",
+        "id": "thalassa",
+        "name": "Thalassa",
+        "cuisine": "greek",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant in Goa, known for its Greek cuisine and stunning views of the sea.",
+        "nearStopId": "vagator-beach",
+        "estimatedCost": 500
+      },
+      {
+        "type": "restaurant",
+        "id": "sublime",
+        "name": "Sublime",
+        "cuisine": "italian",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant in Goa, known for its Italian cuisine and vibrant atmosphere.",
+        "nearStopId": "morjim-beach",
+        "estimatedCost": 400
+      },
+      {
+        "type": "restaurant",
+        "id": "baba-restaurant",
+        "name": "Baba Restaurant",
+        "cuisine": "north-indian",
+        "priceHint": "₹",
+        "whyRecommended": "A popular restaurant in Goa, known for its North Indian cuisine and affordable prices.",
+        "nearStopId": "calangute-beach",
+        "estimatedCost": 150
+      },
+      {
+        "type": "restaurant",
+        "id": "the-fish-factory",
+        "name": "The Fish Factory",
+        "cuisine": "seafood",
+        "priceHint": "₹₹",
+        "whyRecommended": "A popular restaurant in Goa, known for its seafood dishes and vibrant atmosphere.",
+        "nearStopId": "candolim-beach",
+        "estimatedCost": 300
+      },
+      {
+        "type": "restaurant",
+        "id": "lila-cafe",
+        "name": "Lila Cafe",
+        "cuisine": "cafe",
+        "priceHint": "₹",
+        "whyRecommended": "A popular cafe in Goa, known for its coffee and desserts.",
+        "nearStopId": "assagaon",
+        "estimatedCost": 150
+      },
+      {
+        "type": "restaurant",
+        "id": "artjuna",
+        "name": "Artjuna",
+        "cuisine": "cafe",
+        "priceHint": "₹",
+        "whyRecommended": "A popular cafe in Goa, known for its coffee and desserts.",
+        "nearStopId": "anjuna-beach",
+        "estimatedCost": 150
+      }
+    ],
+    "meta": {
+      "origin": "Hyderabad",
+      "destination": "Goa",
+      "days": 4,
+      "vibeTags": [
+        "beach",
+        "relaxation",
+        "culture"
+      ],
+      "budget": 6000,
+      "persons": 3
+    },
+    "createdAt": "2026-07-28T19:59:20.882Z"
+  }
+}

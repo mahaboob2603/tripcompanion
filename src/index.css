@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E07A5F;
+  --color-secondary: #3D405B;
+  --color-tertiary: #81B29A;
+  --color-neutral: #F4F1DE;
+  --color-accent: #F2CC8F;
+  --color-error: #E63946;
+
+  --font-headline: "Outfit", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-neutral);
+  color: var(--color-secondary);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline);
+}
+
+@keyframes fly {
+  0% { left: 4rem; transform: translateY(-50%) rotate(0deg); }
+  100% { left: calc(100% - 4rem - 2rem); transform: translateY(-50%) rotate(0deg); }
+}
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes progress {
+  0% { width: 0%; }
+  100% { width: 95%; }
+}
