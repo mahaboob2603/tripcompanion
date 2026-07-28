@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Compass, Calendar, Edit3, X, Check, Loader2, Share2 } from 'lucide-react';
 import { TimelineBlock } from './TimelineBlock';
 import { BudgetSummaryCard } from './BudgetSummaryCard';
-import { refineDayPlan, saveTrip } from '../api/tripApi';
+import { refineDayPlan } from '../api/tripApi';
 
 export function ItineraryView({ itinerary, selectedSpots, meta, onUpdateItinerary }) {
   const spotMap = new Map(selectedSpots.map(s => [s.id, s]));
@@ -18,11 +18,22 @@ export function ItineraryView({ itinerary, selectedSpots, meta, onUpdateItinerar
   const handleShare = async () => {
     setIsSharing(true);
     try {
-      const { id } = await saveTrip(itinerary, selectedSpots, meta);
-      const url = `${window.location.origin}/${id}`;
+      // Encode the trip data directly into the URL (no database needed)
+      const tripData = { itinerary, selectedSpots, meta };
+      const jsonStr = JSON.stringify(tripData);
       
-      // Update browser URL without reloading
-      window.history.pushState({}, '', `/${id}`);
+      // Compress using built-in CompressionStream
+      const blob = new Blob([jsonStr]);
+      const cs = new CompressionStream('gzip');
+      const compressedStream = blob.stream().pipeThrough(cs);
+      const compressedBlob = await new Response(compressedStream).blob();
+      const buffer = await compressedBlob.arrayBuffer();
+      
+      // Convert to base64url (URL-safe base64)
+      const base64 = btoa(String.fromCharCode(...new Uint8Array(buffer)))
+        .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+      
+      const url = `${window.location.origin}/?trip=${base64}`;
       
       // Copy to clipboard
       await navigator.clipboard.writeText(url);

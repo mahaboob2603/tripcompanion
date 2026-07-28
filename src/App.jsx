@@ -5,7 +5,7 @@ import { ErrorState } from './components/ErrorState';
 import { DiscoveryView } from './components/DiscoveryView';
 import { ItineraryView } from './components/ItineraryView';
 import { useAsyncRequest } from './hooks/useAsyncRequest';
-import { discoverTrip, buildItinerary, loadTrip } from './api/tripApi';
+import { discoverTrip, buildItinerary } from './api/tripApi';
 
 export default function App() {
   const [view, setView] = useState('hero'); // hero | discover | itinerary
@@ -24,12 +24,28 @@ export default function App() {
   const lastPersonsRef = useRef(1);
 
   useEffect(() => {
-    const path = window.location.pathname.slice(1);
-    if (path && path.length > 0 && path !== 'index.html') {
+    const params = new URLSearchParams(window.location.search);
+    const tripParam = params.get('trip');
+    
+    if (tripParam) {
       setView('itinerary');
       loadReq.run(async () => {
-        const data = await loadTrip(path);
-        setTripPlan({ meta: data.meta, spots: [], restaurants: [] }); // Dummy plan for meta
+        // Decode base64url back to base64
+        let base64 = tripParam.replace(/-/g, '+').replace(/_/g, '/');
+        while (base64.length % 4) base64 += '=';
+        
+        // Convert base64 to binary
+        const binary = atob(base64);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+        
+        // Decompress gzip
+        const ds = new DecompressionStream('gzip');
+        const decompressedStream = new Blob([bytes]).stream().pipeThrough(ds);
+        const decompressedText = await new Response(decompressedStream).text();
+        
+        const data = JSON.parse(decompressedText);
+        setTripPlan({ meta: data.meta, spots: [], restaurants: [] });
         setSelectedSpots(data.selectedSpots);
         setItinerary(data.itinerary);
         return data;
