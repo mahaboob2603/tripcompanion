@@ -1,9 +1,11 @@
 import { Redis } from "@upstash/redis";
 
-const redis = new Redis({
-  url: process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL || "missing",
-  token: process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN || "missing",
-});
+function getRedis() {
+  return new Redis({
+    url: process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL || "",
+    token: process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN || "",
+  });
+}
 
 export default async function handler(req, res) {
   if (req.method !== "GET") {
@@ -17,7 +19,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const raw = await redis.get(id);
+    const raw = await getRedis().get(id);
 
     if (!raw) {
       return res.status(404).json({ error: "not_found", message: "Trip not found." });
