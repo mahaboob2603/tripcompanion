@@ -81,6 +81,9 @@ export default async function handler(req, res) {
     }
 
     result.data.meta.persons = numPersons;
+    if (budget) {
+      result.data.meta.budget = Number(budget);
+    }
 
     res.json(result.data);
   } catch (err) {
